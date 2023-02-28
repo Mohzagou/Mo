@@ -85,9 +85,30 @@
                         </tr>
                     </table>
                 </div>
+                <form action="mailto:voorbeeld@mail.com" method="post" enctype="text/plain" style="width: 60%; margin: 0 auto;">
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="name" style="align-self: flex-start;">Naam:</label>
+                        <input type="text" id="name" name="name" required style="width: 70%; margin-bottom: 10px;">
+                        
+                        <label for="email" style="align-self: flex-start;">E-mail:</label>
+                        <input type="email" id="email" name="email" required style="width: 70%; margin-bottom: 10px;">
+                        
+                        <label for="message" style="align-self: flex-start;">Vragen/opmerkingen:</label>
+                        <textarea id="message" name="message" rows="5" required style="width: 70%; margin-bottom: 10px;"></textarea>
+                        
+                        <div style="text-align: left;">
+                            <input type="submit" value="Verstuur" style="width: 25%;">
+                        </div>
+                    </div>
+                </form>
+                
+                  
+                
             </div>
             
+            
         </div>
+        
     
         <div class="sticky-div-bottom">
             <div class="footer">
